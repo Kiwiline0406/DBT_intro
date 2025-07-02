@@ -1,0 +1,21 @@
+# Environnement virtuel
+my-dbt-env/
+venv/
+.env/
+
+# Dossiers DBT à ignorer
+dbt_modules/
+dbt_packages/
+target/
+
+# Fichiers temporaires
+*.pyc
+__pycache__/
+
+# Fichiers de logs
+*.log
+
+# Fichiers de config utilisateur
+*.DS_Store
+.vscode/
+.idea/
